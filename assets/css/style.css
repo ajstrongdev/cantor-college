@@ -177,8 +177,26 @@ nav img {
     background-color: #eaeaea;
     transition: .2s;
 }
-/* Side by side text image*/
+/* 
+Side by side text image
+Ref: https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html
+*/
+.sbs-holder {
+    width: 95%;
+    margin: auto;
+}
 
+.sbs-container {
+    flex-direction: column;
+}
+
+.sbs-container img {
+    width: 100%;
+}
+
+.sbs-container p {
+    margin-bottom: 1.5em;
+}
 
 
 /* Media queries for desktop */
@@ -233,8 +251,26 @@ nav img {
     flex: 38%;
     transition: .3s;
   }
-  /* Side by side text image*/
-  
+  /* Side by side text image */ 
+  .sbs-holder {
+    width: 65%;
+    margin: auto;
+  }
+  .sbs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .sbs-container div {
+    padding: 1em;
+  }
+  .sbs-container h1 {
+    line-height: 3em;
+  }
+  .sbs-container img {
+    width: 100%;
+  }
 }
 
 /* */
