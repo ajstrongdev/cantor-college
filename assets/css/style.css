@@ -1,0 +1,240 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); /* Open Sans */
+
+/* Color variables */
+:root {
+    --background-color: white;
+    --accent-blue: #02577A;
+    --accent-green: #347781;
+    --accent-brown: #947E6F;
+    --foreground-color: #1a1a1a;
+}
+
+/* Reset margin */
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header bar */
+header {
+    width: 100%;
+    height: auto;
+    padding-top: .5em;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    color: var(--foreground-color);
+    text-align: center;
+    padding: 0 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav li .mob-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 2em;
+}
+nav li .desktop-menu {
+    display: none;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: .5fr 1.5fr;
+    column-gap: 5px;
+}
+
+.image {
+    width: 50%
+}
+
+nav img {
+    margin-left: .5em;
+}
+
+/* Mobile menu overlay */
+.overlay {
+    background-color: var(--accent-blue);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.overlay-cont {
+    position: relative;
+    width: 100%;
+    top: 15%;
+    text-align: center;
+}
+
+.overlay a {
+    color: var(--background-color);
+    text-decoration: none;
+    font-size: 4em;
+    padding: .5em;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 1.5em;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#02567a90, #02567ad3, #02577A), url("../images/banner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner .content {
+    width: 95%;
+    margin: auto;
+    color: var(--background-color);
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#banner .content h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#banner .content h2 {
+    font-weight: lighter;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+/* Grid */
+.row {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.flex-item-3 {
+    flex-direction: column;
+    border-width: 1px;
+    border-color: var(--foreground-color);
+    border-style: solid;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.flex-item-3 img {
+    width: 100%;
+}
+
+.flex-item-3 .button {
+    margin-top: 1em;
+    width: 95%;
+    border-width: 1px;
+    border-color: var(--foreground-color);
+    border-style: solid;
+    font-size: 2em;
+    text-align: center;
+    transition: .2s;
+}
+
+.flex-item-3 .button a {
+    color: var(--foreground-color);
+    text-decoration: none;
+}
+
+.flex-item-3 .button:hover {
+    background-color: #eaeaea;
+    transition: .2s;
+}
+/* Side by side text image*/
+
+
+
+/* Media queries for desktop */
+@media screen and (min-width: 720px) {
+    /* Header */
+    header {
+        padding-top: .5em;
+    }
+    /* Navbar rules */
+    .image {
+        width: 20%
+    }
+    nav img {
+        margin-left: 1em;
+    }
+    nav li {
+        float: right;
+    }
+    nav ul {
+        padding: 0;
+        padding-top: .5em;
+        padding-left: 2em; 
+    }
+    /* Hide mobile menu button on desktop, and vice versa */
+   nav li .mob-menu {
+    display: none !important;
+   }
+   nav li .desktop-menu {
+    display: block;
+   }
+   nav li a {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--foreground-color);
+   }
+   #banner .content {
+    width: 50%;
+   }
+   .row {
+    width: 65%;
+   }
+   .flex-container {
+    display: flex;
+    flex-direction: row;
+   }
+   .flex-item-3 {
+    padding: 10px;
+    flex: 33.33%;
+    transition: .3s;
+  }
+  .flex-item-3:hover {
+    flex: 38%;
+    transition: .3s;
+  }
+  /* Side by side text image*/
+  
+}
+
+/* */
