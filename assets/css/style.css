@@ -198,6 +198,17 @@ Ref: https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-i
     margin-bottom: 1.5em;
 }
 
+footer {
+    background-color: #eaeaea;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer .sbs-container h1 {
+    padding-top: 1em;
+}
 
 /* Media queries for desktop */
 @media screen and (min-width: 720px) {
@@ -270,6 +281,9 @@ Ref: https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-i
   }
   .sbs-container img {
     width: 100%;
+  }
+  footer {
+    margin-bottom: 0;
   }
 }
 
