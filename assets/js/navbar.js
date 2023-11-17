@@ -1,8 +1,9 @@
 // Show mobile menu
-function showMobileMenu() {
+document.getElementById("mobMenuShow").addEventListener("click", function() {
     document.getElementById("mobile-nav").style.display = "block";
-}
-// Hide mobile menu
-function hideMobileMenu() {
+});
+
+// Show mobile menu
+document.getElementById("mobMenuHide").addEventListener("click", function() {
     document.getElementById("mobile-nav").style.display = "none";
-}
+});

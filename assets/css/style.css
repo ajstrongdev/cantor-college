@@ -210,6 +210,18 @@ footer .sbs-container h1 {
     padding-top: 1em;
 }
 
+.courseList div {
+    width: 85%;
+    border-style: solid;
+    border-color: var(--foreground-color);
+    border-width: 1px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Media queries for desktop */
 @media screen and (min-width: 720px) {
     /* Header */
@@ -284,6 +296,9 @@ footer .sbs-container h1 {
   }
   footer {
     margin-bottom: 0;
+  }
+  .courseList div {
+    width: 65%;
   }
 }
 
