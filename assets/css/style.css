@@ -222,6 +222,25 @@ footer .sbs-container h1 {
     margin-right: auto;
 }
 
+.courseList h1 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.courseList span {
+    background-color: var(--accent-blue);
+    color: white;
+    margin-bottom: 1em;
+    padding: .25em;
+    border-radius: .25em;
+}
+
+.mobmt {
+    margin-top: 1em;
+}
+
+
+
 /* Media queries for desktop */
 @media screen and (min-width: 720px) {
     /* Header */
