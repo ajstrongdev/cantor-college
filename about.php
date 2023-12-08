@@ -15,17 +15,33 @@
         include("includes/header.php");
     ?>
 
-            <div class="sbs-holder">
-                <div class="sbs-container">
-                    <div class="mobmt">
-                        <h1>Useful links</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies velit eu accumsan elementum. Nam et erat et augue suscipit ultrices ut nec ex. Morbi urna sapien, tincidunt eu sagittis et, ultricies sed quam. Cras aliquam elementum nunc, et dictum elit blandit sed. Integer massa dui.</p>
-                    </div>
-                    <div class="mobmt">
-                        <h1>Get in touch</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies velit eu accumsan elementum. Nam et erat et augue suscipit ultrices ut nec ex. Morbi urna sapien, tincidunt eu sagittis et, ultricies sed quam. Cras aliquam elementum nunc, et dictum elit blandit sed. Integer massa dui.</p>
-                    </div>
+                <div class="center">
+                    <h1>Facilities</h1>
                 </div>
+                <div class="central-cont">
+                <p>The College is located in the attractive and pleasantly refurbished Building. The building houses computing laboratories, and lecture/tutorial rooms. It has its own catering facilities and student work areas. There is also a car park to the back of the building.</p>
+                <p>Our building has space of 9500m², houses over 240 staff and provides teaching space for more than 1600 students.</p>
+                </div>
+            <div class="central-cont">
+                <div class="center">
+                    <h1>Facilities include:</h1>
+                </div>
+                <p>
+                    •	wi-fi technology <br>
+                    •	pool teaching rooms, including classrooms to teach from 25 - 80 students <br>
+                    •	specialist faculty facilities <br>
+                    •	a double height lecture theatre at first and second floor level <br>
+                    •	dramatic three-storey glass open atrium <br>
+                    •	meeting rooms <br>
+                    •	office accommodation <br>
+                    •	specialist IT facilities <br>
+                    •	reception desk area <br>
+                    •	catering outlet <br>
+                    •	parking for disabled badge holders <br>
+                    •	cycle racks <br>
+                    •	gallery <br>
+                </p>
+                <br>
             </div>
 
 

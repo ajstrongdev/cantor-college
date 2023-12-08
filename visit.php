@@ -18,8 +18,8 @@
         <div class="sbs-holder">
             <div class="sbs-container">
                 <div>
-                    <h1>Hello there,</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies velit eu accumsan elementum. Nam et erat et augue suscipit ultrices ut nec ex. Morbi urna sapien, tincidunt eu sagittis et, ultricies sed quam. Cras aliquam elementum nunc, et dictum elit blandit sed. Integer massa dui.</p>
+                    <h1>Visit us,</h1>
+                    <p>You can find Cantor College via Google Maps. A map of Cantor College campus is available.</p>
                 </div>
                 <div>
                     <img src="assets/images/city-map.webp" alt="Map of cantor college campus" />

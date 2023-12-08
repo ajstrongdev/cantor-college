@@ -4,7 +4,9 @@
             <a href="index.php">Home</a> <br>
             <a href="courses.php">Courses</a> <br>
             <a href="visit.php">Visit us</a> <br>
-            <a href="about.php">About us</a>
+            <a href="about.php">About us</a> <br>
+            <a href="students.php">Students</a> <br>
+            <a href="staff.php">Staff</a>
           </div>
     </div>
 
@@ -16,6 +18,8 @@
                 </div>
                 <div class="navigation">
                     <ul>
+                    <li><a href="staff.php" class="desktop-menu">Staff</a></li>
+                    <li><a href="students.php" class="desktop-menu">Students</a></li>
                         <li><a href="about.php" class="desktop-menu">About us</a></li>
                         <li><a href="visit.php" class="desktop-menu">Visit us</a></li>
                         <li><a href="courses.php" class="desktop-menu">Courses</a></li>
@@ -31,7 +35,7 @@
                 <h1>Cantor College</h1>
                 <h2>Shaping Britain's Future</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies velit eu accumsan elementum. Nam et erat et augue suscipit ultrices ut nec ex. Morbi urna sapien, tincidunt eu sagittis et, ultricies sed quam. Cras aliquam elementum nunc, et dictum elit blandit sed. Integer massa dui.
+                Cantor College was established in 1989 to specialize in Computing and Design.   At Cantor College, we want to give students the education they need to achieve their career aims, leaving them equipped with the knowledge, skills and experience to succeed. 
                 </p>
             </div>
         </div>

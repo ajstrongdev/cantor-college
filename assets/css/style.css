@@ -88,7 +88,7 @@ nav img {
 .overlay-cont {
     position: relative;
     width: 100%;
-    top: 15%;
+    top: 5%;
     text-align: center;
 }
 
@@ -297,6 +297,21 @@ footer a {
     color: var(--foreground-color);
 }
 
+.center {
+    text-align: center;
+    padding: 1em;
+}
+
+.central-cont {
+    width: 95%;
+    margin: auto;
+}
+
+.central-cont p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /* Media queries for desktop */
 @media screen and (min-width: 720px) {
     /* Header */
@@ -379,6 +394,9 @@ footer a {
     width: 65%;
   }
   .form-cont {
+    width: 65%;
+  }
+  .central-cont {
     width: 65%;
   }
 }
