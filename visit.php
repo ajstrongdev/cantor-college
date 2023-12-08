@@ -22,7 +22,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies velit eu accumsan elementum. Nam et erat et augue suscipit ultrices ut nec ex. Morbi urna sapien, tincidunt eu sagittis et, ultricies sed quam. Cras aliquam elementum nunc, et dictum elit blandit sed. Integer massa dui.</p>
                 </div>
                 <div>
-                    <img src="assets/images/city-map.webp" />
+                    <img src="assets/images/city-map.webp" alt="Map of cantor college campus" />
                 </div>
             </div>
         </div>

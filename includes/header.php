@@ -12,7 +12,7 @@
         <nav>
             <div class="container">
                 <div class="image">
-                    <img src="assets/images/logo-trans-cropped.png" alt="" width="100%">
+                    <img src="assets/images/logo-trans-cropped.png" alt="Cantor College Logo" width="100%">
                 </div>
                 <div class="navigation">
                     <ul>
